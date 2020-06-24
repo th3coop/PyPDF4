@@ -17,7 +17,7 @@ import sys
 from openpyxl import Workbook
 from openpyxl.utils import get_column_letter
 
-import pypdf as PDF
+import PyPDF4 as PDF
 
 locale.setlocale(locale.LC_ALL, locale.getdefaultlocale()[0])
 

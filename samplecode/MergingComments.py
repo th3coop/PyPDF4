@@ -11,7 +11,7 @@
 import os
 import sys
 
-import pypdf as PDF
+import PyPDF4 as PDF
 
 if sys.argv[0].upper().find("PYTHON.EXE") >= 0:
     del sys.argv[0]
