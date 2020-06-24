@@ -8,7 +8,7 @@ from os import pardir
 from os.path import abspath, dirname, join
 from sys import argv, path
 
-from PyPDF44import PdfFileMerger, PdfFileReader
+from PyPDF4 import PdfFileMerger, PdfFileReader
 
 SAMPLE_CODE_ROOT = dirname(__file__)
 SAMPLE_PDF_ROOT = join(SAMPLE_CODE_ROOT, "pdfsamples")
